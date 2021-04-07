@@ -12,8 +12,10 @@
 # production
 /build
 
+# 
 .next
 next.config.js
+config.env
 
 # misc
 .DS_Store
