@@ -1,4 +1,4 @@
-## WaggleBe App
+## WaggleBee App
 
 
 ### [Set up custom server](https://nextjs.org/docs/advanced-features/custom-server)
@@ -33,4 +33,4 @@ function Layout() {
 }
 
 ```
-Style sheet is located in /public/nprogress.css
+Progress bar style sheet is located in /public/nprogress.css
