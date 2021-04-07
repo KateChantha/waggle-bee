@@ -17,3 +17,20 @@ To override the default App, create the file ./pages/_app.js
 
 ### Build UIs with Semantic UI React
 - [Container](https://react.semantic-ui.com/elements/container/) - A container limits content to a maximum width.
+
+### Styling
+#### Progress Bar while changing from page to page
+In Navbar.js<br/>
+```
+function Layout() {
+  Router.onRouteChangeStart = () => nprogress.start();
+  Router.onRouteChangeComplete = () => nprogress.done();
+  Router.onRouteChangeError = () => nprogress.done();
+
+  return (
+    /* */
+  );
+}
+
+```
+Style sheet is located in /public/nprogress.css
